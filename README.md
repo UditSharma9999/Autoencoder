@@ -13,7 +13,7 @@ the autoencoder tries to reconstruct the inputs, and the cost function contains 
 reconstruction loss that penalizes the model when the reconstructions are different
 from the inputs.
 
-Autoencoders can have multiple hidden layers. In this case they are called <b>stacked autoencoders</b> s (or deep autoencoders).
+Autoencoders can have multiple hidden layers. In this case they are called <b>stacked autoencoders</b> (or deep autoencoders).
 Adding more layers helps the autoencoder learn more complex codings. That said,
 one must be careful not to make the autoencoder too powerful. Imagine an encoder
 so powerful that it just learns to map each input to a single arbitrary number (and the
